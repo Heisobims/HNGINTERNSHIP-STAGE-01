@@ -1,0 +1,5 @@
+fastapi[all]
+requests
+jsonify
+uvicorn
+HTTPException
