@@ -72,7 +72,7 @@ GET /api/classify-number?number=153
 
 1. Start the FastAPI server:
      ```sh
-     uvicorn main:app --reload
+     uvicorn NumClass:app --reload
      ```
 
 2. Open your browser and navigate to `http://127.0.0.1:8000/docs` to access the interactive API documentation.
