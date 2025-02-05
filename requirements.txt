@@ -1,5 +1,4 @@
-fastapi[all]
+fastapi
 requests
 jsonify
 uvicorn
-HTTPException
