@@ -53,8 +53,8 @@ GET /api/classify-number?number=153
 
 1. Clone the repository:
      ```sh
-     git clone https://github.com/yourusername/number-classification-api.git
-     cd number-classification-api
+     git clone https://github.com/Heisobims/HNGINTERNSHIP-STAGE-01.git
+     cd HNGINTERNSHIP-STAGE-01
      ```
 
 2. Create a virtual environment and activate it:
