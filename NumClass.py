@@ -13,8 +13,6 @@ app.add_middleware(
     allow_headers=["*"],
 )
 
-app = FastAPI()
-
 def is_prime(n):
     if n <= 1:
         return False
@@ -36,7 +34,7 @@ def digit_sum(n):
 @app.get('/api/classify-number')
 async def classify_number(number: str):
     if not number.isdigit():
-        raise HTTPException(status_code=400, detail={"number": number, "error": True})
+        raise HTTPException(status_code=400, detail={"number": "alphabet", "error": True})
 
     number = int(number)
     properties = []
